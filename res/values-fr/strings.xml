@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadMyDay</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!-- CardsUI -->
+
+    <string name="overflow">Menu Overflow</string>
+    <string name="color_stripe">Color Stripe</string>
+    <string name="all_day">Toute la journée</string>
+    <string name="no_events">Vous n\'avez rien de prévu aujourd\'hui!</string>
+
+    <!-- Preferences -->
+    <string name="pref_title_notifications">Notifications</string> 
+    <string name="pref_title_notifications_enable">Activer les notifications</string> 
+    <string name="pref_summary_notifications_enable">Envoyer une notification au moment voulu</string> 		
+    <string name="pref_title_notifications_time">Sélectionner une heure</string>
+    <string name="pref_title_about">Sur</string> 
+    <string name="pref_summary_contact">Envoyer un email</string> 
+    <string name="pref_title_contact">Contacter</string> 
+    <string name="pref_summary_share">Partage cette apllication avec tes amis</string> 
+    <string name="pref_share_content">Jette un coup d\'oeil à l\'application #readmyday dans la Play Store de Google http://www.ir.gl/readmyday</string> 
+    <string name="pref_title_share">Partager</string> 
+    <string name="pref_dialog_ok">OK</string> 
+    <string name="pref_dialog_cancel">Annuler</string> 
+    <string name="pref_title_version">Vertion</string> 
+    <string name="pref_title_notifications_sound">Sond</string> 
+    <string name="pref_title_notifications_vibrate">Vibrer</string> 
+    <string name="pref_summary_notifications_sound">Sonne au lancement de la notification</string> 
+    <string name="pref_summary_notifications_vibrate">Vibre au lancement de la notification</string> 
+
+    <!-- Notification -->
+    <string name="notif_title">Agenda d\'aujourd\'hui</string> 
+    <string name="notif_text">Sélectionner pour mettre à jour son agenda</string> 
+
+</resources>

@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_title_notifications" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_notifications_enable"
+            android:summary="@string/pref_summary_notifications_enable"
+            android:title="@string/pref_title_notifications_enable" />
+
+        <com.caracocha.readmyday.TimePickerPref
+            android:dependency="pref_key_notifications_enable"
+            android:key="pref_key_notifications_time"
+            android:title="@string/pref_title_notifications_time" />
+
+        <com.caracocha.readmyday.WeekDay
+            android:dependency="pref_key_notifications_enable"
+            android:key="pref_key_week_day"
+            android:title="@string/pref_title_week_day" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="pref_key_notifications_enable"
+            android:key="pref_key_notifications_vibrate"
+            android:summary="@string/pref_summary_notifications_vibrate"
+            android:title="@string/pref_title_notifications_vibrate" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="pref_key_notifications_enable"
+            android:key="pref_key_notifications_sound"
+            android:summary="@string/pref_summary_notifications_sound"
+            android:title="@string/pref_title_notifications_sound" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_about" >
+        <Preference
+            android:key="pref_key_version"
+            android:title="@string/pref_title_version" >
+        </Preference>
+        <Preference
+            android:key="pref_key_share"
+            android:summary="@string/pref_summary_share"
+            android:title="@string/pref_title_share" >
+        </Preference>
+        <Preference
+            android:summary="@string/pref_summary_contact"
+            android:title="@string/pref_title_contact" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:acaracocha@gmail.com?subject=[ReadMyDay]" >
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

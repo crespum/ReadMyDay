@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadMyDay</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!-- CardsUI -->
+
+    <string name="overflow">Menu Overflow</string>
+    <string name="color_stripe">Color Stripe</string>
+    <string name="all_day">Todo el día</string>
+    <string name="no_events">Hoy no tienes nada pendiente!</string>
+
+    <!-- Preferences -->
+    <string name="pref_title_notifications">Notificaciones</string>
+    <string name="pref_title_notifications_enable">Activar notificaciones</string>
+    <string name="pref_summary_notifications_enable">Emite una notificación en el momento deseado</string>
+    <string name="pref_title_notifications_time">Seleccione una hora...</string>
+    <string name="pref_title_about">Sobre</string>
+    <string name="pref_summary_contact">Envíanos un email</string>
+    <string name="pref_title_contact">Contacta</string>
+    <string name="pref_summary_share">Comparte esta app con tus amigos</string>
+    <string name="pref_share_content">Hey! Echa un vistazo a la app #readmyday en la Play Store de Google http://www.ir.gl/readmyday</string>
+    <string name="pref_title_share">Compartir</string>
+    <string name="pref_dialog_ok">OK</string>
+    <string name="pref_dialog_cancel">Cancelar</string>
+    <string name="pref_title_version">Versión</string>
+    <string name="pref_title_notifications_sound">Sonido</string>
+    <string name="pref_title_notifications_vibrate">Vibrar</string>
+    <string name="pref_summary_notifications_sound">Suena al lanzar la notificación</string>
+    <string name="pref_summary_notifications_vibrate">Vibra al lanzar la notificación</string>
+    <string name="prefs_monday">LU</string>
+    <string name="prefs_tuesday">MA</string>
+    <string name="prefs_wednesday">MI</string>
+    <string name="prefs_thursday">JU</string>
+    <string name="prefs_friday">VI</string>
+    <string name="prefs_saturday">SA</string>
+    <string name="prefs_sunday">DO</string>
+    <string name="pref_title_week_day">Días de la semana</string>
+
+    <!-- Notification -->
+    <string name="notif_title">Agenda para hoy</string>
+    <string name="notif_text">Seleccione para revisar su agenda</string>
+
+</resources>

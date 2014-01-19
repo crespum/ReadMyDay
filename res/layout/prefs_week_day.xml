@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <ToggleButton
+            android:id="@+id/prefs_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_monday"
+            android:textOn="@string/prefs_monday"
+            android:textColor="@color/toggle_selector"
+             />
+
+        <ToggleButton
+            android:id="@+id/prefs_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_tuesday"
+            android:textOn="@string/prefs_tuesday"
+            android:textColor="@color/toggle_selector" />
+
+        <ToggleButton
+            android:id="@+id/prefs_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_wednesday"
+            android:textOn="@string/prefs_wednesday"
+            android:textColor="@color/toggle_selector" />
+
+        <ToggleButton
+            android:id="@+id/prefs_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_thursday"
+            android:textOn="@string/prefs_thursday"
+            android:textColor="@color/toggle_selector" />
+
+        <ToggleButton
+            android:id="@+id/prefs_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_friday"
+            android:textOn="@string/prefs_friday"
+            android:textColor="@color/toggle_selector" />
+
+        <ToggleButton
+            android:id="@+id/prefs_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_saturday"
+            android:textOn="@string/prefs_saturday"
+            android:textColor="@color/toggle_selector" />
+
+        <ToggleButton
+            android:id="@+id/prefs_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:textOff="@string/prefs_sunday"
+            android:textOn="@string/prefs_sunday"
+            android:textColor="@color/toggle_selector" />
+    </LinearLayout>
+
+</LinearLayout>
